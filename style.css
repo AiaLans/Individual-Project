@@ -258,7 +258,7 @@
         margin-top: 0;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 769px) {
     .first {
         display: flex;
         justify-content: space-between;
