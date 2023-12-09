@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HP</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+         font-family: 'Hedvig Letters Serif', serif;
+         box-sizing: border-box;
+         background-color: #f4f4f4;
+        }
+        .parts {
+        /* background-color: #f4f4f4; */
+        background-color: white;
+        height: 150vh;
+        }
+    </style>
+</head>
+<body>
+ <!-- First Part -->
+    <nav class="first">
+        <p id="platform"><b>Platform 3/4</b></p>
+        <img id="icon"src="https://i.pinimg.com/236x/18/c1/b4/18c1b429a409e2919d6acb9cc10ded4a.jpg" alt="icon">
+    </nav>
+    <header class="showcase">
+        <div class="img">
+            <div class="text">
+                <h2>Welcome to my site</h2>
+                <br>
+                <p>Here you can get all the information about the Harry Potter Universe</p>
+                <br>
+                <form class="input">
+                    <input style="background-color: darkred" value="Search" type="text">
+                    <a href="#" class="button"> Send </a>
+                </form>
+            </div>
+        </div>
+    </header>
+
+ <!-- Second Part -->
+    <section class="characters">
+        <h2>Main characters:</h2>
+        <div class="character">
+         <!-- First Section -->
+            <div class="HP">
+                <img src="data:image/jpeg;base64,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" alt="HP">
+                <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%80%D1%80%D0%B8_%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80" target=_blank > <h4>Harry Potter</h4> </a>
+            </div>
+         <!-- Second Section -->
+            <div class="HP">
+                <img src="https://c4.wallpaperflare.com/wallpaper/789/711/600/emma-watson-hermione-granger-harry-potter-women-school-uniform-hd-wallpaper-preview.jpg" alt="HG">
+                <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D1%80%D0%BC%D0%B8%D0%BE%D0%BD%D0%B0_%D0%93%D1%80%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%B5%D1%80" target=_blank > <h4>Hermione Granger</h4> </a>
+            </div>
+         <!-- Third Section -->
+            <div class="RW">
+                <img src="https://img.wattpad.com/56055e064ca0d601705c2e54c06bae61fb3a47bf/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f7745714a764d54427430494d35773d3d2d3137342e3136346166353335626434383036633335323535353130313431322e6a7067?s=fit&w=720&h=720=" alt="RW">
+                <a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BD_%D0%A3%D0%B8%D0%B7%D0%BB%D0%B8" target=_blank > <h4>Ron Weasley</h4> </a>
+                <h4></h4>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- Main Part -->
+    <main class="inf">
+        <div class="main">
+            <!-- Table -->
+            <div id="table">
+                <table border="2">
+                    <tr>
+                        <th class="facts"><b>Number</b></th>
+                        <th class="facts"><b>Facts</b></th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>J.K. Rowling and Harry Potter have the same birthday, which is July 31.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Robbie Coltrane, who plays Hagrid in the films, was the first actor to be cast in the series.</td>
+                    </tr>
+                     <tr>
+                        <td>3</td>
+                        <td>Rowling once said that when she wasn't in a happy place, she almost killed off Ron out of sheer spite.</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Logos -->
+            <div id="logos">
+                <div id="gs">
+                    <img id="gryffindor" src="https://1000logos.net/wp-content/uploads/2021/11/Gryffindor-Logo.png" alt="Gryffindor-Logo">
+                    <img id="slytherin" src="https://1000logos.net/wp-content/uploads/2023/05/Slytherin-Logo-tumb.png" alt="Slytherin-Logo">
+                </div>
+                <div id="rh">
+                    <img id="ravenclaw" src="https://1000logos.net/wp-content/uploads/2023/05/Ravenclaw-Logo-500x281.png" alt="Ravenclaw-Logo">
+                    <img id="hufflepuff" src="https://1000logos.net/wp-content/uploads/2023/08/Hufflepuff-Logo-500x281.png" alt="Hufflepuff-Logo">
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <!-- Article Part -->
+    <article class="parts">
+        <h3>All book parts of HP</h3>
+        <div id="one">
+            <a href="https://www.meloman.kz/books-for-teenagers/rouling-dj-k-garri-potter-i-filosofskiy-kamen.html" target="_blank"><img src="https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/migrated/article/9199/18_tn3.jpg" alt="Гарри Поттер и Философский камень"></a>
+            <a href="https://www.meloman.kz/books-for-teenagers/rouling-dj-k-garri-potter-i-orden-feniksa.html" target="_blank"><img src="https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/migrated/article/12742/64_tn3.jpg" alt="Гарри Поттер и Орден Феникса"></a>
+            <a href="https://www.meloman.kz/books-for-teenagers/rouling-dj-k-garri-potter-i-dary-smerti.html" target="_blank"><img src="https://simg.marwin.kz/media/catalog/product/cache/8d1771fdd19ec2393e47701ba45e606d/migrated/article/14449/43_tn3.jpg" alt="Гарри Поттер и Дары Смерти"></a>
+        </div>
+        <div id="two">
+            <a href="https://www.meloman.kz/books-for-teenagers/rouling-dj-k-garri-potter-i-princ-polukrovka.html" target="_blank"><img src="https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/1/0/1011973_0.jpg" alt="Гарри Поттер и Принц-полукровка"></a>
+            <a href="https://www.meloman.kz/books-for-teenagers/rouling-dj-k-garri-potter-i-taynaya-komnata.html" target="_blank"><img id="hd" src="https://simg.marwin.kz/media/catalog/product/cache/8d1771fdd19ec2393e47701ba45e606d/f/u/fullimage_19_85.jpg" alt="Гарри Поттер и Тайная комната"></a>
+            <a href="https://www.meloman.kz/books-for-teenagers/rouling-dj-k-garri-potter-i-uznik-azkabana.html" target="_blank"><img id="hard" src="https://simg.marwin.kz/media/catalog/product/cache/8d1771fdd19ec2393e47701ba45e606d/f/u/rouling_dj_k_garri_potter_i_uznik_azkabana.jpg" alt="Гарри Поттер и узник Азкабана"></a>
+            <a href="https://www.meloman.kz/books-for-teenagers/rouling-djk-garri-potter-i-kubok-ognya.html" target="_blank"><img id="ar" src="https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/f/u/fullimage_19_93.jpg" alt="Гарри Поттер и Кубок Огня"></a>
+        </div>
+    </article>
+    <br>
+    <!-- Footer Part -->
+    <footer class="finish">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMeVD-g7cS1_eVskLFVkCobS9mEthpihhojbZ9hWGUyxODn4-pSnM60WiY7tVx8mvMARc&usqp=CAU" alt="darkred cover">
+        <div id="create">
+            <h4>J. K. Rowling & Aia</h4>
+        </div>
+    </footer>
+</body>
+</html>
+
+
