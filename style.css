@@ -330,10 +330,10 @@
     }
     .showcase .img .text .input .button {
         color: white;
+        margin-left: 10px;
         padding: 10px;
         position: relative;
         top: -3px;
-        margin-left: 10px;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
