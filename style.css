@@ -242,6 +242,7 @@
     color: rgb(104, 102, 102);
 }
 .finish #create p {
+    text-align: center;
     font-size: 200%;
     margin-right: 20%;
     margin-left: 5%;
