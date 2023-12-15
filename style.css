@@ -17,12 +17,13 @@
 #platform {
     font-size: 30px;
     margin-left: 10%;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 #icon {
     width: 100px;
     margin-right: 10%;
     margin-top: 0;
+    padding: 1%;
 }
 
 
@@ -236,7 +237,7 @@
     margin-left: 2%;
     margin-top: 4%;
     position: absolute;
-    top: 340%;
+    top: 343%;
     z-index: 2;
     font-size: 50px;
     color: rgb(104, 102, 102);
@@ -247,7 +248,7 @@
     margin-right: 20%;
     margin-left: 5%;
     position: absolute;
-    top: 345%;
+    top: 347%;
     left: 25%;
     z-index: 2;
     color: rgb(122, 14, 14);
@@ -282,10 +283,12 @@
 }
 
 /* Responsive Design */
-@media screen and (min-width: 0px) and (max-width: 768px) {
+/* Phone */
+@media screen and (min-width: 0px) and (max-width:425px) {
     /* Navigation */
     #platform {
         font-size: 20px;
+        margin-top: 4%;
     }
     #icon {
         width: 50px;
@@ -316,17 +319,18 @@
     }
     /* Sections part */
     .characters .character {
-        margin-top: 5%;
-        height: 40vh;
-        padding-top: 5%;
+        margin-top: 0;
+        height: 30vh;
     }
     .characters h2 {
-        font-size: 20px;
+        font-size: 30px;
+        margin-top: 1%;
     }
     .characters .character .HP img {
         width: 100px;
         height: 120px;
-        padding-left: 5%;
+        margin-left: 6%;
+        margin-right: 2%;
     }
     .characters .character .RW img {
         width: 100px;
@@ -334,7 +338,6 @@
     }
     .characters .character .HP a {
         font-size: 15px;
-
     }
     .characters .character .RW a {
         font-size: 15px;
@@ -345,16 +348,16 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        font-size: 30px;
+        font-size: 25px;
         height: 43vh;
-        margin-top: 15px;
+        margin-top: 0;
     }
 
     /* Table */
     .inf .main #table table {
-        width: 100%;
+        width: 90%;
         height: 200px;
-        margin-left: 0;
+        margin-left: 2%;
         margin-top: 0;
     }
     .inf .main #table table tr .facts {
@@ -381,55 +384,290 @@
     }
     /* Article Part */
     .parts {
-        height: 90vh;
+        height: 210vh;
+    }
+    .parts #two {
+        margin-left: 0;
     }
     .parts h3 {
-        width: 50%;
-        margin-left: 25%;
-        font-size: 20px;
+        width: 80%;
+        margin-left: 15%;
+        font-size: 30px;
     }
     .parts #one img {
-        margin-top: 0;
-        margin-left: 5%;
-        width: 100px;
-        height: 100px;
+        margin-top: 5%;
+        margin-left: 20%;
+        width: 250px;
+        height: 200px;
     }
     .parts #two img {
-        width: 100px;
-        height: 130px;
-        margin-left: 20%;
-        margin-top: 5%;
+        width: 130px;
+        height: 180px;
+        margin-left: 8%;
+        margin-top: 0;
     }
     .parts #two #hd {
-        margin-left: 5%;
-        width: 100px;
-        height: 130px;
+        margin-left: 10%;
+        width: 140px;
+        height: 180px;
         margin-top: 0;
     }
     .parts #two #hard {
-        width: 150px;
-        height: 130px;
-        margin-left: 13%;
-        margin-top: 0;
+        width: 200px;
+        height: 170px;
+        margin-left: 0;
+        margin-top: 3%;
     }
     .parts #two #ar {
-        margin-left: 0;
-        width: 100px;
-        height: 130px;
+        margin-left: 3%;
+        width: 130px;
+        height: 170px;
         margin-top: 0;
     }
     /* Footer Part */
-    .finish img {
-        width: 100%;
-        height: 10vh;
-        position: absolute;
-        top: 330%; 
-    }
     .finish #create h4 {
         width: 70%;
-        margin-left: 15%;
+        margin-left: 2%;
         position: absolute;
-        top: 330%;
-        font-size: 150%;
+        top: 451%;
+        font-size: 100%;
+        color: dimgrey;
+    }
+    .finish {
+        height: 20vh;
+        width: 100%;
+        z-index: 1;
+        
+    }
+    .finish #create {
+        display: grid;
+        justify-content: center;
+    }
+    .finish #create p {
+        text-align: center;
+        font-size: 100%;
+        margin-right: 1%;
+        margin-left: 1%;
+        position: absolute;
+        top: 443%;
+        left: 0;
+        z-index: 2;
+    }
+    .finish #i i {
+        font-size: 130%;
+        z-index: 2;
+    }
+    .finish #i .fa-brands {
+        position: absolute;
+        top: 454%;
+        left: 94%;
+        z-index: 2;
+    }
+    .finish #i .fa-solid {
+        position: absolute;
+        top: 454%;
+        left: 87%;
+        z-index: 2;
+    }
+    .finish #i .fa-regular {
+        position: absolute;
+        top: 454%;
+        left: 80%;
+        z-index: 2;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    /* Navigation */
+    #platform {
+        font-size: 20px;
+        margin-top: 3%;
+    }
+    #icon {
+        width: 50px;
+    }
+    /* Showcase header part */
+    .showcase .img .text h2 {
+        font-size: 40px;
+    }
+    .showcase .img .text p {
+        font-size: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .showcase .img .text .input input {
+        width: 50%;
+        height: 20px;
+        padding: 10px;
+        font-size: 30px;
+    }
+    .showcase .img .text .input .button {
+        padding: 5px;
+        width: 51.3%;
+        font-size: 20px;
+        position: absolute;
+        top: 75%;
+        right: 24%;
+        margin-left: 0;
+    }
+    /* Sections part */
+    .characters .character {
+        margin-top: 0;
+        height: 40vh;
+    }
+    .characters h2 {
+        font-size: 30px;
+        margin-top: 1%;
+        padding: 2%;
+    }
+    .characters .character .HP img {
+        width: 150px;
+        height: 180px;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+    .characters .character .RW img {
+        width: 170px;
+        height: 180px;
+    }
+    .characters .character .HP a {
+        font-size: 15px;
+    }
+    .characters .character .RW a {
+        font-size: 15px;
+    }
+    /* Main Part */
+    .inf .main #table, 
+    .inf .main #logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 25px;
+        height: 43vh;
+        margin-top: 0;
+    }
+
+    /* Table */
+    .inf .main #table table {
+        width: 90%;
+        height: 200px;
+        margin-left: 2%;
+        margin-top: 0;
+    }
+    .inf .main #table table tr .facts {
+        padding: 0;
+        font-size: 60%;
+    }
+    .inf .main #table table tr td {
+        font-size: 60%;
+    }
+    /* Logos */
+    .inf {
+        height: 90vh;
+    }
+    .inf .main #logos #gs #gryffindor,
+    .inf .main #logos #gs #slytherin,
+    .inf .main #logos #rh #ravenclaw,
+    .inf .main #logos #rh #hufflepuff {
+        width: 200px;
+        margin-left: 10%;
+    }
+    .inf .main #logos #gryffindor,
+    .inf .main #logos #ravenclaw {
+        margin-left: 0;
+    }
+    /* Article Part */
+    .parts {
+        height: 100vh;
+    }
+    .parts #two {
+        margin-left: 0;
+    }
+    .parts h3 {
+        width: 80%;
+        margin-left: 15%;
+        font-size: 30px;
+    }
+    .parts #one img {
+        margin-top: 5%;
+        margin-left: 0;
+        width: 250px;
+        height: 200px;
+        padding: 0;
+    }
+    .parts #two img {
+        width: 130px;
+        height: 180px;
+        margin-left: 3%;
+        margin-top: 0;
+    }
+    .parts #two #hd {
+        margin-left: 6%;
+        width: 140px;
+        height: 180px;
+        margin-top: 0;
+    }
+    .parts #two #hard {
+        width: 220px;
+        height: 180px;
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+    .parts #two #ar {
+        margin-left: 0;
+        width: 130px;
+        height: 180px;
+        margin-top: 0;
+    }
+    /* Footer Part */
+    .finish #create h4 {
+        width: 70%;
+        margin-left: 2%;
+        position: absolute;
+        top: 357%;
+        font-size: 100%;
+        color: dimgrey;
+    }
+    .finish {
+        height: 20vh;
+        width: 100%;
+        z-index: 1;
+    }
+    .finish #create {
+        display: grid;
+        justify-content: center;
+    }
+    .finish #create p {
+        text-align: center;
+        font-size: 120%;
+        margin-right: 1%;
+        margin-left: 1%;
+        position: absolute;
+        top: 350%;
+        left: 0;
+        z-index: 2;
+    }
+    .finish #i i {
+        font-size: 130%;
+        z-index: 2;
+    }
+    .finish #i .fa-brands {
+        position: absolute;
+        top: 362%;
+        left: 92%;
+        z-index: 2;
+    }
+    .finish #i .fa-solid {
+        position: absolute;
+        top: 362%;
+        left: 87%;
+        z-index: 2;
+    }
+    .finish #i .fa-regular {
+        position: absolute;
+        top: 362%;
+        left: 82%;
+        z-index: 2;
     }
 }
